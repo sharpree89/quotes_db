@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+         <link rel"stylesheet" type="text/css" href="Content/style.css">
+         <meta charset="UTF-8">
+         <title>Quotes DB</title>
+    </head>
+    <body>
+        <h2>Quotes DB</h2>
+        <p><a href="/"><button class="button-primary">Add A Quote</button></a></p>
+        <p>@ViewBag.quotes</p>
+    </body>
+</html>

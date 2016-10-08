@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+         <link rel"stylesheet" type="text/css" href="Content/style.css">
+         <meta charset="UTF-8">
+         <title>Quotes DB</title>
+    </head>
+    <body>
+        <h2>Quotes DB</h2>
+        <form action="/process" method="post">
+            <div class="row">
+                <div class="six columns">
+                    <label for="name">Name</label>
+                    <input class="u-full-width" type="text" name="name">
+                </div>
+            </div>
+            <label for="quote">Quote</label>
+            <textarea class="u-full-width" name="quote"></textarea>
+            <input class="button-primary" type="submit" value="Add Quote">
+        </form>
+        <p><a href="/quotes"><button>See All Quotes</button></a></p>
+           
+    </body>
+</html>
